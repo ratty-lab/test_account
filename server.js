@@ -2,7 +2,7 @@ import express from 'express';
 
 
 
-const port= 0.0.0.0:3004;
+const port= 3004;
 
 const app= express();
 
