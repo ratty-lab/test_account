@@ -11,13 +11,11 @@ var counter=0;
     
     
 app.get('/',(req,res)=>{
-    for(let i=0;i<=2354545456;i++){
-        counter++
-    }
+   
 
 
     res.send(`
-        process id is ${process.pid}  and counter:${counter}
+        process id is ${process.pid}  
         <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -100,7 +98,7 @@ app.get('/',(req,res)=>{
 
     })
     app.get('/nb',(req,res)=>{
-        res.send(`process is ${process.pid} and counter:${counter}`)
+        res.send(`process is ${process.pid} `)
     })
 
 
