@@ -2,7 +2,7 @@ import express from 'express';
 
 
 
-
+const port= 0.0.0.0:3004;
 
 const app= express();
 
@@ -104,8 +104,8 @@ app.get('/',(req,res)=>{
     })
 
 
-app.listen('0.0.0.0:10001',()=>{
-    console.log('server is running at port 3000');
+app.listen(port,()=>{
+    console.log(`server is running at port ${port}`);
     
 }
 )
